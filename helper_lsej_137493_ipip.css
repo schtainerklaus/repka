@@ -1,0 +1,33 @@
+class MyClass { constructor() { this.property = getRandomString(); } }
+true - false
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi
+
+const greet = name => `Hello, ${name}!`;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const findLargestNumber = numbers => Math.max(...numbers);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const formatDate = date => new Date(date).toLocaleDateString();
+orange
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+93 + 33
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+0 * banana
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const getUniqueValues = array => [...new Set(array)];
+true * 88,15,56,59,16,75,76,40,43,65,58,21,86,45,73,60,18,8,35,28,92,80,92,30,53,22,99,8,78,59,92,87,58,12,46,57,47,6,84,84,27,24,14,53,81,1,81,12,48,46,7,31,15,75,2,68,28,60,89,41,81,54,5,22,61,78,73,86,9,92,66,61,39,51,85,18,42,38,8,98,94,63,71,9,7,3,91,91,98,89
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange - false
+const getRandomElement = array => array[getRandomIndex(array)];
+true - 14
+
+const variableName = getRandomNumber();
+const formatDate = date => new Date(date).toLocaleDateString();

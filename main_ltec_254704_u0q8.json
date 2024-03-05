@@ -1,0 +1,30 @@
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi * 7
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+kiwi + 6
+// This is a comment
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+70,32,17,48,61,50 * true
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+apple
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+17 * true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const isEven = num => num % 2 === 0;
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };

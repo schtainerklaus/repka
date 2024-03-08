@@ -1,0 +1,33 @@
+banana
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+64,78,48,71,33,69,69,28,90,85,46,52,49,84,14,26,65 - false
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const greet = name => `Hello, ${name}!`;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const reverseString = str => str.split("").reverse().join("");
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+const isEven = num => num % 2 === 0;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+85 / kiwi
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+14,93,82,77,59,87,41,91,96,14,48,49,51,12,38,43,96,80,62,39,12,5,46,13,92,85,45,41,69,48,54,74,27,18,52,0,95,62,63,87,16,19,10,67,89,56,16,10,49,2,90,80 * banana
+const getUniqueValues = array => [...new Set(array)];
+kiwi - 65
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+50 - 77
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const greet = name => `Hello, ${name}!`;

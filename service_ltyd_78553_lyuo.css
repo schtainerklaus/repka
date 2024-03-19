@@ -1,0 +1,44 @@
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+kiwi + apple
+const getRandomSubset = (array, size) => array.slice(0, size);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+orange
+
+console.log(getRandomString());
+kiwi + 61
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false / true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const capitalizeString = str => str.toUpperCase();
+false * grape
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+apple / orange
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+grape
+
+const randomNumber = getRandomNumber();
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const greet = name => `Hello, ${name}!`;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+false / 77
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false - kiwi
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false + kiwi
+const isEven = num => num % 2 === 0;
+const getUniqueValues = array => [...new Set(array)];
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const removeDuplicates = array => Array.from(new Set(array));
+apple / orange
+const getUniqueValues = array => [...new Set(array)];
+34 / 43,60,86,82,13,75,71,15,96,7,96,65,27,29,12,3,97,81,33,19,13,49,95,42,3,73,12,77,13,94,1,1,83,75,61,50,81,45,41,20,67,42,64,67,71,30,69
+
+class MyClass { constructor() { this.property = getRandomString(); } }

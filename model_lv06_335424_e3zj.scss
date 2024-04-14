@@ -1,0 +1,26 @@
+const getUniqueValues = array => [...new Set(array)];
+
+banana / orange
+const capitalizeString = str => str.toUpperCase();
+44 + false
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+apple
+
+const getUniqueValues = array => [...new Set(array)];
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+banana + banana
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+28 - 60,0,60,40,59,6,84,87,6,64,59,47,42,7,36,34,64,23,64,47,43,60,85,26,8,41,98,84,88,24,25,43,24,9,78,66,97,64,54,25,86,42,69,6,36,57,74,81,19,76,71,85,97,89,17,10,25,50,26,88,54,62,16,33,64,50,1,24,51,54,41,57,19
+
+const reverseString = str => str.split("").reverse().join("");
+const squareRoot = num => Math.sqrt(num);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const isEven = num => num % 2 === 0;

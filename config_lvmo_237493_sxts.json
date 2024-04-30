@@ -1,0 +1,27 @@
+const greet = name => `Hello, ${name}!`;
+false * banana
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+banana
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+apple + 85,38,64,67,3,56,51,99,78,20,83,75,16,87,17,28
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+kiwi * true
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+false * 38
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true / orange
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+96 - 41
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
